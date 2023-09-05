@@ -6,8 +6,6 @@ for i in range(cantidad):
     numeroAleatorio=random.randint(-500,500)
     nReales.append(numeroAleatorio)
 
-print(nReales)
-
 suma=0
 promedio=0
 elementos=len(nReales)
@@ -18,4 +16,5 @@ for x in nReales:
 promedio=suma/elementos
 
 print("El promedio de los n números es: "+str(promedio))
+    
     
